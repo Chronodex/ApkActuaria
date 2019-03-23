@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fdfdfd"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/asistenciaButton"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:text="Asistencia"
+            android:textColor="#ffffff"
+            android:background="@drawable/boton_redondo_dorado"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/letras_actuaria"/>
+        <Button
+            android:id="@+id/anularButton"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:text="Anular Asistencia"
+            android:textColor="#ffffff"
+            android:background="@drawable/boton_redondo_azul"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/omega_actuaria"/>
+        <Button
+            android:id="@+id/desarrolladoresButton"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:text="Desarrolladores"
+            android:textColor="#ffffff"
+            android:background="@drawable/boton_redondo_dorado"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</ScrollView>
